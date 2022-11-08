@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Template Literals</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        div {
+            border: 1px solid gray;
+            margin: 3px;
+            display: inline-block;
+            width:32%;
+            
+        }
+        footer{
+            margin-top: 1.6em;
+            /* margin-left: 1.6em; */
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h3>Template Literals</h3>
+    <h3 id="header"></h3>
+
+    <div id="mov-1"></div>
+    <div id="mov-2"></div>
+    <div id="mov-3"></div>
+    <footer id="foot"> </footer>
+
+    <script>
+        var title = "Favorite Movies";
+        var movies = ["Blade Runner", "Serenity", "The Fifth Element"];
+        var releaseYrs = [1982, 2005, 1997];
+        var ratings = ["R", "PG-13", "PG-13"];
+
+        var heading = document.getElementById("header");
+
+        heading.textContent = "Steve's " + title;
+
+        movieHTML = ``;
+        for(var i = 0; i < movies.length; i++){
+            movieHTML += `${movies[i]} <br /> Released ${releaseYrs[i]} <br/> Rating: ${ratings[i]}`;
+            var idName = `mov-${i+1}`;
+            document.getElementById(idName).innerHTML = movieHTML;
+
+            movieHTML = ``;
+        }
+        footerHTML = `Want to know more? Visit + 
+         <a href='https://www.javascripttutorial.net/es6/javascript-template-literals/#'>Template Literals</a>`;
+
+ 
+
+         document.getElementById("foot").innerHTML = footerHTML;
+        
+       
+        
+
+    </script>
+</body>
+
+</html>
