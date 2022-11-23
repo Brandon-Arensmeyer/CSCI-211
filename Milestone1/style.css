@@ -4,7 +4,7 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     position: fixed;
     top: 0;
-    background: rgba(0, 0, 0,0);
+    background: rgb(255, 255, 255);
     width:100%;
 }
 
@@ -20,23 +20,21 @@ body{
 
 h1{
     text-align: center;
-    color: #f1f1f1;
+    color: #000000;
 }
 
 h3{
     text-align: center;
-    color: #f1f1f1;
+    color: #000000;
 }
 
-div{
+
+#day1, #day2, #day3, #day4, #day5{
     border: 1px solid gray;
     margin: 3px;
     display: inline-block;
-    width: 32%;
+    width: 15%;
     text-align: center;
-}
-
-#day1, #day2, #day3{
     background-color: white;
 }
 
@@ -48,7 +46,7 @@ div{
 }
 
 footer{
-    color: #f1f1f1;
+    color: #000000;
     margin-top: 1.6em;
     margin-left: 1.6em;
     text-align: center;
