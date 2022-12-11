@@ -38,11 +38,16 @@ h3{
     background-color: white;
 }
 
+#desc{
+    text-align: justify;
+    margin: 0;
+    padding-left: 5%;
+}
+
 #logoimg{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 10%;
+    float: right;
+    padding: 10px 20px 20px 0;
+    width: 20%;
 }
 
 footer{
