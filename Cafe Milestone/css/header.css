@@ -1,0 +1,11 @@
+header{
+    justify-content: space-between;
+    justify-content: center;
+    display: flex;
+    border-bottom: 5px solid black;
+    
+    width: 100%;
+    font-size: 200%;
+    font-style: italic;
+    text-shadow: 5px 5px slategray;
+}

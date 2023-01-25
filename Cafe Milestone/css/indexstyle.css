@@ -1,0 +1,78 @@
+body{
+    background: antiquewhite;
+}
+
+h2{
+    font-size: 2vw;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+
+.Breakfast{
+    margin-top: 2%;
+    border: 5px solid;
+    padding-bottom: 5%;
+}
+
+#breakfastImg{
+    width: 25%;
+    float:left;
+    margin-left: 3.5%;
+    margin-bottom: 2%;
+    margin-right: 2%;
+}
+
+.Lunch{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border: 5px dashed;
+    padding-bottom: 5%;
+}
+
+#lunchImg{
+    width: 25%;
+    float:right;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    margin-right: 3.5%;
+}
+
+.Dinner{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border: 5px double;
+    padding-bottom: 5%;
+}
+
+#dinnerImg{
+    width: 25%;
+    float:left;
+    margin-left: 3.5%;
+    margin-bottom: 2%;
+    margin-right: 2%;
+}
+
+
+table, td { 
+    border: 2px solid; 
+    width: 65%;
+    text-align: center;
+    font-size: 170%;
+    margin-left: 3.5%;
+    margin-right: 2%;
+
+}
+th        { 
+    border: 2px solid;
+}
+table     {
+     border-collapse: collapse; 
+}
+th, td    {
+     width: 12rem; 
+}
+
+
+
+
+
